@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:    
+      - 'pr@**'
+      - 'repr@**'
+
+name: Automatically created for a specific branch name PR
+
+jobs:
+  generic_handler:
+    name: Automatic creation PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create pull request
+        uses: jumpserver/action-generic-handler@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

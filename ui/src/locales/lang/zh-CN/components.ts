@@ -1,0 +1,26 @@
+export default {
+  quickCreatePlaceholder: 'Quickly create blankDocumentation',
+  quickCreateName: 'Document name',
+  noData: 'NonematchNumberAccording to',
+  loading: 'loadMedium',
+  noMore: 'arriveBottom！',
+  selectParagraph: {
+    title: 'choosesegmentation',
+    error: 'Only execute thesuccesssegmentation',
+    all: 'allsegmentation',
+  },
+  noDesc: 'None yetdescribe',
+  folder: {
+    addFolder: 'Add toFolder',
+    addChildFolder: 'Add tosonFolder',
+    editFolder: 'Edit folder',
+    folderNamePlaceholder: 'Please enterName',
+    requiredMessage: 'Please selectFolder',
+    deleteConfirmMessage: 'FolderThe resource below will be deleted, please be careful.operate。',
+    ascTime: 'according toCreation timeAscending order',
+    descTime: 'according toCreation timedescending order',
+    ascName: 'according toName ascending',
+    descName: 'according toName descending order',
+    custom: 'according toUsersDrag and drop sorting',
+  },
+}

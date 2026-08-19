@@ -1,0 +1,61 @@
+export default {
+  title: 'Account login',
+  loginForm: {
+    username: {
+      label: 'username',
+      placeholder: 'Please enterusername',
+      requiredMessage: 'Please enterusername',
+      lengthMessage: 'Length in 4 arrive 20 characters',
+    },
+    password: {
+      label: 'LoginPassword',
+      placeholder: 'Please enterPassword',
+      requiredMessage: 'Please enterPassword',
+      lengthMessage: 'Length in 6 arrive 20 characters',
+    },
+    captcha: {
+      label: 'Verification code',
+      placeholder: 'Please enterVerification code',
+      requiredMessage: 'Please enterVerification code',
+      validatorMessage: 'Verification codeIncorrect',
+    },
+    new_password: {
+      label: 'newPassword',
+      placeholder: 'Please enternewPassword',
+      requiredMessage: 'Please enternewPassword',
+    },
+    re_password: {
+      label: 'Confirm Password',
+      placeholder: 'Please enterConfirm Password',
+      requiredMessage: 'Please enterConfirm Password',
+      validatorMessage: 'PasswordInconsistent',
+    },
+    email: {
+      label: 'Mail',
+      placeholder: 'Please enterMail',
+      requiredMessage: 'Please enterMail',
+      validatorEmail: 'Please enterefficientMailFormat！',
+    },
+  },
+  jump_tip: 'That is, Will jumps to the authentication source page for authentication.',
+  jump: 'Jump',
+  resetPassword: 'Change password',
+  forgotPassword: 'ForgotPassword',
+  userRegister: 'User registration',
+  buttons: {
+    login: 'Login',
+    register: 'register',
+    backLogin: 'ReturnLogin',
+    checkCode: 'ImmediatelyVerification',
+  },
+  newPassword: 'newPassword',
+  enterPassword: 'Please enterChange password',
+  useEmail: 'useMail',
+  moreMethod: 'More Login methods',
+  verificationCode: {
+    placeholder: 'Please enterVerification code',
+    getVerificationCode: 'Get verification code',
+    successMessage: 'likeIf the email has been registered, weWillSend email，Please check the Notice',
+    resend: 'Resend',
+  },
+}

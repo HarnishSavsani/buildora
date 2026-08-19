@@ -1,0 +1,81 @@
+export default {
+  title: 'Overview',
+  appInfo: {
+    publicAccessLink: 'Public access link',
+    openText: 'Open',
+    closeText: 'close',
+    demo: 'Demonstration',
+    embedInWebsite: 'Embed third party',
+    accessControl: 'Access restrictions',
+    displaySetting: 'display settings',
+    apiAccessCredentials: 'API access credentialsAccording to',
+    apiKey: 'API Key',
+    refreshToken: {
+      msgConfirm1: 'YesNo regenerate public access link?',
+      msgConfirm2:
+        'Regenerating publicly accessible links will affectEmbed third partyScript changes require Will new script to be re-Embed third party，Please be carefuloperate！',
+      refreshSuccess: 'Refreshsuccess',
+    },
+
+    APIKeyDialog: {
+      saveSettings: 'SaveSettings',
+      msgConfirm1: 'YesnoDelete API Key',
+      msgConfirm2: 'Delete API Key After Will cannot be restored, please confirm Yes or No.Delete？',
+    },
+    EmbedDialog: {
+      fullscreenModeTitle: 'full screen mode',
+      copyInstructions: 'CopyBelowcodeEmbed',
+      floatingModeTitle: 'Floating window mode',
+      mobileModeTitle: 'Mobile mode',
+    },
+    LimitDialog: {
+      clientQueryLimitLabel: 'Questions asked by every piecesClientlimit',
+      timesDays: 'Second-rate/sky',
+      authentication: 'identityVerification',
+      authenticationValue: 'PasswordVerification',
+      whitelistLabel: 'Whitelist',
+      whitelistPlaceholder:
+        'Please enterAllowedEmbed third partysourceaddress，One per line，like：\nhttp://127.0.0.1:5678\nhttps://dataease.io',
+      loginMethod: 'LoginWay',
+      loginMethodRequired: 'Please choose Login mode',
+      displayCodeRequired: 'Please enterFailedSecond-rateNumber',
+      toSettingChatUser: 'goConfigurationDialog users',
+      authenticationTooltip:
+        'turn onLogin authenticationAfter that, Agentand associatedknowledge baseallneedDialog usersAuthorization Configuration, otherwise Users have noPermissionsLoginandknowledge baseSearch',
+    },
+    SettingAPIKeyDialog: {
+      allowCrossDomainLabel: 'AllowedCross-domain address',
+      crossDomainPlaceholder:
+        'Please enterAllowedCross-domain address，No input after openingCross-domain addressOtherwiselimit。\nCross-domain addressOne per line，like：\nhttp://127.0.0.1:5678 \nhttps://dataease.io',
+    },
+  },
+  SettingDisplayDialog: {
+    showSourceLabel: 'Show knowledgesource',
+    showExecutionDetail: 'Show executionDetails',
+    restoreDefault: 'Restore default',
+    customThemeColor: 'Custom themecolor',
+    headerTitleFontColor: 'HeaderTitle font color',
+    default: 'default',
+    askUserAvatar: 'Ask a questionUser avatar',
+    replace: 'Replacement',
+    imageMessage: 'Recommended size 32*32，support JPG、PNG、GIF，size does not exceed 10 MB',
+    AIAvatar: 'AI replyAvatar',
+    display: 'show',
+    floatIcon: 'Floating window entranceicon',
+    iconDefaultPosition: 'icondefault location',
+    iconPosition: {
+      left: 'Left',
+      right: 'Right',
+      bottom: 'Down',
+      top: 'On',
+    },
+    draggablePosition: 'Draggable location',
+    showHistory: 'show historyRecord',
+    displayGuide: 'Show guide image(Floating window mode)',
+    share: 'AllowedshareConversation record',
+    disclaimer: 'Disclaimer',
+    disclaimerValue: '「AbovecontentallThe value of AI generate，Only for reference and reference」',
+    chatBackground: 'Chat background',
+    chatBackgroundMessage: 'support JPG、PNG、GIF，size does not exceed 10 MB',
+  },
+}

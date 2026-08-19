@@ -1,0 +1,59 @@
+import {PermissionConst, EditionConst, RoleConst} from '@/utils/permission/data'
+import {hasPermission} from '@/utils/permission/index'
+import roleSystemApi from '@/api/system/role'
+import roleWorkspaceApi from '@/api/workspace/role'
+import systemWorkspaceApi from '@/api/system/workspace'
+import workspaceApi from '@/api/workspace/workspace'
+import systemChatUserApi from '@/api/system/chat-user'
+import workspaceChatUserApi from '@/api/workspace/chat-user'
+import systemUserGroupApi from '@/api/system/user-group'
+import workspaceUserGroupApi from '@/api/workspace/user-group'
+import useStore from "@/stores";
+
+// system administrator API
+const systemApiMap = {
+  role: roleSystemApi,
+  workspace: systemWorkspaceApi,
+  chatUser: systemChatUserApi,
+  userGroup: systemUserGroupApi,
+} as any
+
+// Enterprise version workspace manager API
+const workspaceApiMap = {
+  role: roleWorkspaceApi,
+  workspace: workspaceApi,
+  chatUser: workspaceChatUserApi,
+  userGroup: workspaceUserGroupApi,
+} as any
+
+/** Dynamicimport API module letterNumber
+ *  loadPermissionApi('role')
+ */
+const {user} = useStore()
+const systemPermissionMap = {
+  workspace: [PermissionConst.WORKSPACE_READ, RoleConst.ADMIN],
+  role: [PermissionConst.ROLE_READ, RoleConst.ADMIN],
+  chatUser: [PermissionConst.CHAT_USER_READ, RoleConst.ADMIN],
+  userGroup: [PermissionConst.USER_GROUP_READ, RoleConst.ADMIN],
+}
+const workspacePermissionMap = {
+  workspace: [PermissionConst.WORKSPACE_WORKSPACE_READ, RoleConst.WORKSPACE_MANAGE.getWorkspaceRole],
+  role: [PermissionConst.WORKSPACE_ROLE_READ, RoleConst.WORKSPACE_MANAGE.getWorkspaceRole],
+  chatUser: [PermissionConst.WORKSPACE_CHAT_USER_READ, RoleConst.WORKSPACE_MANAGE.getWorkspaceRole],
+  userGroup: [PermissionConst.WORKSPACE_USER_GROUP_READ, RoleConst.WORKSPACE_MANAGE.getWorkspaceRole],
+}
+
+export function loadPermissionApi(type: string) {
+  if (hasPermission([EditionConst.IS_EE, EditionConst.IS_PE], 'OR')) {
+    user.getHasPermissionWorkspaceManage()
+    if (hasPermission(systemPermissionMap[type as keyof typeof systemPermissionMap], 'OR')) {
+      // loadsystem administrator API
+      return systemApiMap[type]
+    } else if (
+      hasPermission(workspacePermissionMap[type as keyof typeof workspacePermissionMap], 'OR')
+    ) {
+      // Load enterprise version jobspace manager API
+      return workspaceApiMap[type]
+    }
+  }
+}

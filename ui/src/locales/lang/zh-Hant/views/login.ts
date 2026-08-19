@@ -1,0 +1,61 @@
+export default {
+  title: 'Account login',
+  loginForm: {
+    username: {
+      label: 'Username',
+      placeholder: 'Please enter user name',
+      requiredMessage: 'Please enter user name',
+      lengthMessage: 'The length must be between 4 arrive 20 between characters',
+    },
+    password: {
+      label: 'Login password',
+      placeholder: 'Please enter password',
+      requiredMessage: 'Please enter password',
+      lengthMessage: 'The length must be between 6 arrive 20 between characters',
+    },
+    captcha: {
+      label: 'Verification code',
+      placeholder: 'Please enter the verification code',
+      requiredMessage: 'Please enter the verification code',
+      validatorMessage: 'Verification code is incorrect',
+    },
+    new_password: {
+      label: 'new password',
+      placeholder: 'Please enter new password',
+      requiredMessage: 'Please enter new password',
+    },
+    re_password: {
+      label: 'Confirm password',
+      placeholder: 'Please enter the confirmation password',
+      requiredMessage: 'Please enter the confirmation password',
+      validatorMessage: 'Passwords are inconsistent',
+    },
+    email: {
+      label: 'Email',
+      placeholder: 'Please enter your email address',
+      requiredMessage: 'Please enter your email address',
+      validatorEmail: 'Please enter a valid email format！',
+    },
+  },
+  jump_tip: 'You will be redirected to the certification source page for certification.',
+  jump: 'Jump',
+  resetPassword: 'Change password',
+  forgotPassword: 'Forgot password',
+  userRegister: 'User registration',
+  buttons: {
+    login: 'Login',
+    register: 'register',
+    backLogin: 'Return to login',
+    checkCode: 'Verify now',
+  },
+  newPassword: 'new password',
+  enterPassword: 'Please enter new password',
+  useEmail: 'Use email',
+  moreMethod: 'More ways to log in',
+  verificationCode: {
+    placeholder: 'Please enter the verification code',
+    getVerificationCode: 'Get verification code',
+    successMessage: 'If the email address is already registered，we will send email，Please pay attention to check',
+    resend: 'Resend',
+  },
+}

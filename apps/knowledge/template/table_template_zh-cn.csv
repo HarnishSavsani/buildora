@@ -1,0 +1,13 @@
+Position,Reimbursement type,Reimbursement standards for first-tier cities (yuan）,Second-tier city reimbursement standards (yuan）,Reimbursement standards for third-tier cities (yuan）
+Ordinary employees,Accommodation fee,500,400,300
+department head,Accommodation fee,600,500,400
+Department Director,Accommodation fee,700,600,500
+Regional General Manager,Accommodation fee,800,700,600
+Ordinary employees,food expenses,50,40,30
+department head,food expenses,50,40,30
+Department Director,food expenses,50,40,30
+Regional General Manager,food expenses,50,40,30
+Ordinary employees,Transportation fees,50,40,30
+department head,Transportation fees,50,40,30
+Department Director,Transportation fees,50,40,30
+Regional General Manager,Transportation fees,50,40,30
