@@ -1,0 +1,81 @@
+Total apps/tools/skills/templates in store: 80
+1. ID: tool-mcp-output | Name: Get the output result of AI executing MCP | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_mcp_output/1.0.0/Get the output results of MCP.tool
+2. ID: tool-html-to-pdf | Name: HTML to pdf tool | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_html_to_pdf/1.0.0/html to pdf.tool
+3. ID: tool-wf-testcase | Name: Test case generation | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_wf_testcase/1.0.0/test case generation.tool
+4. ID: tool-html-compression | Name: HTML compression tool | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_html_compression/1.0.0/htmlcompression.tool
+5. ID: tool-ofd-parse | Name: OFD file extraction | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_OFD_Parse/1.0.0/OFD_Parser.tool
+6. ID: tool-wecomrobot | Name: Enterprise WeChat group chat robot message push | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_wecomrobot/1.0.0/Enterprise WeChat Robot Message Push.tool
+7. ID: tool-mineruzip-etl-util | Name: MinerU parses file upload and resource path replacement | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_minerUzip_ETL_util/1.0.0/MinerU Parsing file upload and resource path replacement.tool
+8. ID: tool-mineruapi-zip-util | Name: MinerU Online API PDF parsing ZIP acquisition | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_minerUapi_zip_util/1.0.0/MinerU Online API PDF parsing ZIP acquisition.tool
+9. ID: tool-mysql | Name: MySQL query with parameters | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_mysql/1.0.1/MySQL query with parameters.tool
+10. ID: tool-paperx | Name: PDF to picture tool | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_paperx/1.0.0/PDF to image.tool
+11. ID: tool-doc2docx | Name: Word document to DOCX tool | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_doc2docx/1.0.0/zlb-doc to docx.tool
+12. ID: tool-big-order | Name: Large order network inquiry | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_big_order/1.0.0/大盘网search大order.tool
+13. ID: app-long-form-writing | Name: Long article writing agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_long_form_writing/1.0.0/Long text writing agent.mk
+14. ID: tool-mineru-local-markdown | Name: MinerU offline PDF to Markdown | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_mineru_local_markdown/2.1.0/MinerU Offline PDF Conversion Markdown 2.1.0.tool
+15. ID: tool-dingrobot | Name: DingTalk group chat robot message push | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_dingrobot/1.0.0/DingTalk Robot Message Push.tool
+16. ID: tool-jina-reader | Name: Jina Reader | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_jina_reader/1.0.0/Jina Reader.tool
+17. ID: tool-unoserver-file-converter | Name: unoserver document type conversion tool | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_unoserver_file_converter/1.0.0/unoserver document conversion tool.tool
+18. ID: app-deepresearch | Name: Deep study of agents | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_deepresearch/1.0.0/deepresearch_Agent.mk
+19. ID: kbwf-image-content-enrich | Name: Graphic content enhancement workflow | Download: https://apps-assets.fit2cloud.com/stable/maxkb/kbwf_image_content_enrich/1.0.1/Graphic content enhancement workflow.kbwf
+20. ID: kbwf-knowledge-workflow | Name: Knowledge Base Workflow Template | Download: https://apps-assets.fit2cloud.com/stable/maxkb/kbwf_knowledge_workflow/1.0.0/workflow knowledge base template.kbwf
+21. ID: tool-md2docx | Name: Markdown to DOCX tool | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_md2docx/1.0.6/DOCX.tool
+22. ID: app-invoice-recognition | Name: Invoice recognition agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_invoice_recognition/1.0.0/invoice_recognition.mk
+23. ID: tool-memos-add | Name: MemOS memory addition | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_memos_add/1.0.0/MemOS memory add.tool
+24. ID: tool-sqlserver | Name: SQLServer database query | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_sqlserver/1.0.1/SQLServer query.tool
+25. ID: tool-redis | Name: Redis database query | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_redis/1.0.0/Redis query.tool
+26. ID: tool-mariadb | Name: MariaDB database query | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_mariadb/1.0.0/MariaDB query.tool
+27. ID: tool-echart-to-svg | Name: ECharts chart HTML to SVG tool | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_echart_to_svg/1.0.0/Get svg pictures.tool
+28. ID: tool-html2pdf | Name: HTML to PDF conversion tool | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_html2pdf/1.0.0/HTML to PDF conversion tool.tool
+29. ID: app-quotation-generation-agent | Name: Quote generation agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_quotation_generation_agent/1.0.0/quotation generation agent.mk
+30. ID: app-household-registration-policy-qa-assistant | Name: Household Registration Policy Q&A Assistant | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_household_registration_policy_qa_assistant/1.0.0/household policy question and answer assistant.mk
+31. ID: tool-metaso | Name: Secret Tower AI Search | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_metaso/1.0.1/Metaso AI search.tool
+32. ID: app-knowledge-self-assessment | Name: Self-assessment assistant for student knowledge points | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_knowledge_self_assessment/1.0.0/Student Knowledge Point Self-Assessment Agent.mk
+33. ID: tool-fragment | Name: Code snippet extraction tool | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_fragment/1.0.0/code fragment extraction tool.tool
+34. ID: app-case-collection | Name: Case collection agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_case_collection/1.0.0/case collection agent.mk
+35. ID: tool-feishubot | Name: Feishu robot message push | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_feishubot/1.0.0/Feishubot message push.tool
+36. ID: skill-mysql | Name: MySQL database skills | Download: https://apps-assets.fit2cloud.com/stable/maxkb/skill_mysql/1.0.0/mysql database skills.tool
+37. ID: app-crm-intelligent-recording | Name: CRM Intelligent Recording Agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_crm_intelligent_recording/1.0.0/intelligent recording.mk
+38. ID: db-confluence-datasource | Name: Confluence data sources | Download: https://apps-assets.fit2cloud.com/stable/maxkb/db_confluence_datasource/1.0.0/confluence.tool
+39. ID: tool-smtp-email | Name: Email message push | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_smtp_email/1.0.0/Email message push.tool
+40. ID: tool-baidu-translate | Name: Baidu Translate | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_baidu-translate/1.0.0/Baidu Translate.tool
+41. ID: app-case-inquire | Name: Case Query Agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_case_inquire/1.0.0/case_inquire.mk
+42. ID: tool-memos-search | Name: MemOS memory retrieval | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_memos_search/1.0.0/MemOS memory retrieval.tool
+43. ID: app-crm-customer-entry-ai-agent | Name: CRM customer relationship entry AI agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_crm_customer_entry_ai_agent/1.0.0/CRM Customer Relationship Entry AI Agent.mk
+44. ID: tool-webhook | Name: Webhook triggers data push | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_webhook/1.0.0/Webhook trigger data push.tool
+45. ID: tool-extract | Name: Document content extraction | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_extract/1.0.0/File content extraction.tool
+46. ID: tool-duckduckgo-search | Name: DuckDuckGo Search | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_duckduckgo_search/1.0.0/DuckDuckGosearch.tool
+47. ID: kbwf-mineru-local-markdown | Name: MinerU local PDF warehousing workflow template | Download: https://apps-assets.fit2cloud.com/stable/maxkb/kbwf_mineru_local_markdown/2.3.0/MinerU Local PDF warehousing workflow template.kbwf
+48. ID: tool-registry | Name: Enterprise business information query API | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_registry/1.0.0/Enterprise business information query API.tool
+49. ID: tool-timestamp | Name: Date timestamp conversion | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_timestamp/1.0.0/datetimestampconversion.tool
+50. ID: app-crm-intelligent-search | Name: CRM intelligent query agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_crm_intelligent_search/1.0.0/intelligent query agent.mk
+51. ID: tool-mem0-search | Name: Mem0 memory retrieval | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_mem0_search/1.0.0/Mem0 memory retrieval.tool
+52. ID: skill-maxkb-rag-qa | Name: MaxKB RAG-QA skills | Download: https://apps-assets.fit2cloud.com/stable/maxkb/skill_maxkb_rag_qa/1.0.0/Intelligent MaxKB knowledge base retrieval.tool
+53. ID: db-feishu-datasource | Name: Feishu data source | Download: https://apps-assets.fit2cloud.com/stable/maxkb/db_feishu_datasource/1.0.0/feishu.tool
+54. ID: skill-deepresearch | Name: Deep search | Download: https://apps-assets.fit2cloud.com/stable/maxkb/skill_deepresearch/1.0.0/deepsearch.tool
+55. ID: app-application-template | Name: Knowledge Base Q&A Assistant | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_application_template/1.0.0/Knowledge Base Q&A Assistant.mk
+56. ID: tool-github-search | Name: GitHub API query | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_github_search/1.0.0/GitHub API query.tool
+57. ID: tool-mineru-util | Name: MinerU parses PDF | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_minerU_util/1.0.5/MinerU parsing pdf .tool
+58. ID: tool-tavily-search | Name: Tavily Search | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_tavily_search/1.0.0/Tavilysearch.tool
+59. ID: tool-mem0-add | Name: Mem0 memory added | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_mem0_add/1.0.0/Mem0memoryadd.tool
+60. ID: tool-kodbox | Name: Kodbox file upload and sharing | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_kodbox/1.0.0/Upload files to kodbox and generate sharing links.tool
+61. ID: tool-anspire | Name: iSP Online Search | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_anspire/1.0.1/Anspire Internet Search.tool
+62. ID: app-sqlbot-ai | Name: SQLBot AI agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_sqlbot_ai/1.0.0/SQLBot-AI agent.mk
+63. ID: tool-docx2md | Name: DOCX to MD | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_docx2md/1.0.0/docx2md.tool
+64. ID: tool-elasticsearch | Name: Elasticsearch database query | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_elasticsearch/1.0.0/Elasticsearch query.tool
+65. ID: kbwf-mineru-pdf-rag | Name: PDF Parsing RAG Workflow Template | Download: https://apps-assets.fit2cloud.com/stable/maxkb/kbwf_mineru_pdf_rag/2.2.0/PDF Parsing RAG workflow template.kbwf
+66. ID: tool-httputils | Name: HTTP tools | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_httputils/1.0.0/httputil.tool
+67. ID: tool-data-to-excel | Name: Writing data to EXCEL | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_data_to_excel/1.0.0/Data writing to excel file.tool
+68. ID: tool-mongo | Name: MongoDB database query | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_mongo/1.0.0/MongoDB query.tool
+69. ID: app-data-analysis-assistant | Name: Data analysis assistant | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_data_analysis_assistant/1.0.0/Data Analysis Assistant.mk
+70. ID: tool-maxkb-oss-upload | Name: MaxKB OSS universal file upload | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_maxkb_oss_upload/1.0.0/MaxKB OSS universal file upload.tool
+71. ID: app-contract-review | Name: Contract review agent | Download: https://apps-assets.fit2cloud.com/stable/maxkb/app_contract_review/1.0.0/Contract Review Agent.mk
+72. ID: tool-mem0-get | Name: Mem0 memory acquisition | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_mem0_get/1.0.0/Mem0 memory get.tool
+73. ID: tool-oracle | Name: Oracle database query | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_oracle/1.0.0/Oracle query.tool
+74. ID: tool-md-to-docx | Name: markdown generates docx file | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_md_to_docx/1.0.0/markdown to docx file.tool
+75. ID: tool-mem0 | Name: Mem0 memory | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_mem0/1.0.0/memoryinterface.tool
+76. ID: tool-mineruapi-util | Name: Online MinerU API parsing PDF | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_minerUapi_util/2.1.0/Online MinerU API parsing PDF 2.1.0.tool
+77. ID: tool-json-handler | Name: JSON processing | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_json_handler/1.0.0/JSON processing.tool
+78. ID: skill-gongwen-format | Name: Document typesetting skills | Download: https://apps-assets.fit2cloud.com/stable/maxkb/skill_gongwen_format/1.0.0/Official document formatting skills.tool
+79. ID: tool-clickhouse | Name: ClickHouse database query | Download: https://apps-assets.fit2cloud.com/stable/maxkb/tool_clickhouse/1.0.0/ClickHouse database query.tool
+80. ID: skill-officecli | Name: OfficeCLI | Download: https://apps-assets.fit2cloud.com/stable/maxkb/skill_officecli/1.0.0/officecli.tool
