@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: MaxKB
+    @project: Crafter.ai
     @Author：Tiger²
     @file： base_variable_aggregation_node.py
     @date：2025/10/23 17:42

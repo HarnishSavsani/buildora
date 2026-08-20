@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-    @project: MaxKB
-    @Author：TigerTiger
+    @project: Crafter.ai
+    @Author：Neural Nexus
     @file： base_variable_splitting_node.py
     @date：2025/10/13 15:02
     @desc:

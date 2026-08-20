@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-    @project: MaxKB
-    @Author：TigerTiger
+    @project: Crafter.ai
+    @Author：Neural Nexus
     @file： chat.py
     @date：2025/6/9 11:23
     @desc:

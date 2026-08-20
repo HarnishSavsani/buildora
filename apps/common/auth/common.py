@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-    @project: MaxKB
-    @Author：TigerTiger
+    @project: Crafter.ai
+    @Author：Neural Nexus
     @file： common.py
     @date：2025/6/6 19:55
     @desc:

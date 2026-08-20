@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: maxkb
+    @project: Crafter.ai
     @Author：Tiger
     @file： xlsx_parse_qa_handle.py
     @date：2024/5/21 14:59

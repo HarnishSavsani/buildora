@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: MaxKB
+    @project: Crafter.ai
     @Author：Tiger
     @file： gzip.py
     @date：2025/2/27 10:03

@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: MaxKB
+    @project: Crafter.ai
     @file: image.py
     @desc: AWS Bedrock Vision-Language Model Implementation
 """

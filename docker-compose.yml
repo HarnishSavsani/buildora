@@ -1,0 +1,65 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: maxkb-postgres
+    restart: always
+    environment:
+      POSTGRES_DB: maxkb
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: Password123@postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U root -d maxkb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: maxkb-redis
+    restart: always
+    command: redis-server --requirepass Password123@redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a Password123@redis ping | grep PONG"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  maxkb:
+    build:
+      context: .
+      dockerfile: installer/Dockerfile
+    container_name: maxkb-app
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      - MAXKB_CONFIG_TYPE=ENV
+      - MAXKB_DB_NAME=maxkb
+      - MAXKB_DB_HOST=db
+      - MAXKB_DB_PORT=5432
+      - MAXKB_DB_USER=root
+      - MAXKB_DB_PASSWORD=Password123@postgres
+      - MAXKB_REDIS_HOST=redis
+      - MAXKB_REDIS_PORT=6379
+      - MAXKB_REDIS_PASSWORD=Password123@redis
+      - MAXKB_REDIS_DB=0
+    volumes:
+      - maxkbdata:/opt/maxkb
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+  redisdata:
+  maxkbdata:

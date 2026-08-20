@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-@project: maxkb
+@project: Crafter.ai
 @Author：Tiger
 @file： base_question_node.py
 @date：2024/6/4 14:30

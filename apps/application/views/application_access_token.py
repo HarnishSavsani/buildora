@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-    @project: MaxKB
-    @Author：TigerTiger
+    @project: Crafter.ai
+    @Author：Neural Nexus
     @file： application_token.py
     @date：2025/6/9 17:42
     @desc:

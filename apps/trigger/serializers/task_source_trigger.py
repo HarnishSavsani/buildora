@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: MaxKB
+    @project: Crafter.ai
     @Author：niu
     @file： task_source_trigger.py
     @date：2026/1/22 16:18

@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: maxkb
+    @project: Crafter.ai
     @Author：Tiger
     @file： system_setting.py
     @date：2024/3/19 16:01

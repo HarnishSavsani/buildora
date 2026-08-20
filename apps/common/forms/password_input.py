@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: maxkb
+    @project: Crafter.ai
     @Author：Tiger
     @file： password_input.py
     @date：2023/11/1 14:48

@@ -48,7 +48,7 @@ import { langList, localeConfigKey, getBrowserLang } from '@/locales/index'
 defineProps({
   lang: {
     type: Boolean,
-    default: true,
+    default: false,
   },
 })
 const { user, theme } = useStore()

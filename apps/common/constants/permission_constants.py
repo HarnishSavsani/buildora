@@ -1,6 +1,6 @@
 """
     @project: qabot
-    @Author：TigerTiger
+    @Author：Neural Nexus
     @file： permission_constants.py
     @date：2023/9/13 18:23
     @desc: Permissions,Role Constant

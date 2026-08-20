@@ -30,7 +30,7 @@ export default {
     publishSuccess: 'Published successfully',
     ExportError: 'Export Failed',
     professionalMessage:
-      'The Community Edition supports up to 5 agents. If you need more agents, please upgrade to the Professional Edition.',
+      'The Community Edition supports up to 5 agents.',
     saveErrorMessage: 'Saving failed, please check your input or try again later',
     loadingErrorMessage: 'Failed to load configuration, please check your input or try again later',
     noDocPermission: 'No permission to create documents',

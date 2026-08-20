@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: maxkb
+    @project: Crafter.ai
     @Author：Tiger
     @file： is_not_null_compare.py
     @date：2024/6/28 10:45

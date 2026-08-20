@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: maxkb
+    @project: Crafter.ai
     @Author：Tiger
     @file： embedding_config.py
     @date：2023/10/23 16:03

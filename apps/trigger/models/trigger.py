@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: MaxKB
+    @project: Crafter.ai
     @Author：niu
     @file： trigger.py.py
     @date：2026/1/9 15:33

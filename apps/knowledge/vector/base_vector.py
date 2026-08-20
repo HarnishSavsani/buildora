@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-@project: maxkb
+@project: Crafter.ai
 @Author：Tiger
 @file： base_vector.py
 @date：2023/10/18 19:16

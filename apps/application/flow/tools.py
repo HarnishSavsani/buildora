@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-@project: maxkb
+@project: Crafter.ai
 @Author：Tiger
 @file： utils.py
 @date：2024/6/6 15:15

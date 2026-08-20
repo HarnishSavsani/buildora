@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: MaxKB
+    @project: Crafter.ai
     @Author：Tiger
     @file： embedding.py
     @date：2024/7/12 15:02

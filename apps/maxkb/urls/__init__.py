@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-    @project: MaxKB-xpack
-    @Author：TigerTiger
+    @project: Crafter.ai-xpack
+    @Author：Neural Nexus
     @file： __init__.py.py
     @date：2025/11/5 14:45
     @desc:

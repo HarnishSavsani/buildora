@@ -1,7 +1,7 @@
 # coding=utf-8
 """
     @project: qabot
-    @Author：TigerTiger
+    @Author：Neural Nexus
     @file： handle_exception.py
     @date：2023/9/5 19:29
     @desc:

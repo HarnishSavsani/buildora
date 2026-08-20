@@ -89,11 +89,17 @@ export function downloadByURL(url: string, name: string) {
 // Replace fixedNumberAccording tointernationalization
 const i18n_default_name_map: any = {
   'system administrator': 'layout.about.inner_admin',
+  '系统管理员': 'layout.about.inner_admin',
   'Workspace manager': 'layout.about.inner_wsm',
+  '工作空间管理员': 'layout.about.inner_wsm',
   'Ordinary user': 'layout.about.inner_user',
+  '普通用户': 'layout.about.inner_user',
   'Root directory': 'layout.about.root',
+  '根目录': 'layout.about.root',
   'defaultWorkspace': 'layout.about.default_workspace',
+  '默认工作空间': 'layout.about.default_workspace',
   'defaultUser group': 'layout.about.default_user_group',
+  '默认用户组': 'layout.about.default_user_group',
 }
 
 export function i18n_name(name: string) {

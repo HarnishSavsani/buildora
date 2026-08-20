@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: MaxKB
+    @project: Crafter.ai
     @Author：Tiger
     @file： reranker.py.py
     @date：2024/9/2 16:42

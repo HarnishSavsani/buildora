@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-@project: MaxKB
-@Author：TigerTiger
+@project: Crafter.ai
+@Author：Neural Nexus
 @file： KnowledgeVersionSerializer.py
 @date：2025/11/28 18:00
 @desc:

@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: MaxKB
+    @project: Crafter.ai
     @Author：Tiger
     @file： base_loop_node.py
     @date：2025/3/11 18:24

@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-@project: MaxKB
-@Author：TigerTiger
+@project: Crafter.ai
+@Author：Neural Nexus
 @file： conf.py
 @date：2025/4/11 16:58
 @desc:
@@ -33,7 +33,7 @@ class Config(dict):
         "LOCAL_MODEL_PROTOCOL": "http",
         "LOCAL_MODEL_HOST_WORKER": 1,
         # language
-        "LANGUAGE_CODE": "zh-CN",
+        "LANGUAGE_CODE": "en",
         "DEBUG": False,
         # redis host
         "REDIS_HOST": "127.0.0.1",

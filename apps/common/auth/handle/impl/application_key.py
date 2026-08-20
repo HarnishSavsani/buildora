@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-    @project: MaxKB
-    @Author：TigerTiger
+    @project: Crafter.ai
+    @Author：Neural Nexus
     @file： application_key.py
     @date：2025/7/10 03:02
     @desc:  applicationapi keyCertification

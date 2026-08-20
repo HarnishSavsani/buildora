@@ -9,7 +9,7 @@ export default {
   },
   tip: {
     professionalMessage:
-      'The community edition supports up to 2 users. For more users, please upgrade to the professional edition.',
+      'The community edition supports up to 2 users.',
     updatePwdSuccess: 'User password updated successfully',
   },
   delete: {

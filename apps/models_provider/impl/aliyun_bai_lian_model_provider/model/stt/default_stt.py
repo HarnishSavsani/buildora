@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: MaxKB
+    @project: Crafter.ai
     @Author：niu
     @file： default_stt.py
     @date：2025/12/5 15:40

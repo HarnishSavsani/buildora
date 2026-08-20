@@ -1,7 +1,7 @@
 # coding=utf-8
 """
     @project: qabot
-    @Author：TigerTiger
+    @Author：Neural Nexus
     @file： authenticate.py
     @date：2024/3/14 03:02
     @desc:  Authentication Processer

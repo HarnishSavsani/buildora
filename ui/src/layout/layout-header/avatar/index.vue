@@ -87,53 +87,7 @@
             {{ $t('layout.apiKey') }}
           </el-dropdown-item>
         </div>
-        <el-dropdown-item
-          style="padding: 0"
-          @click.stop
-          v-if="
-            hasPermission(
-              new ComplexPermission(
-                [RoleConst.ADMIN, RoleConst.WORKSPACE_MANAGE, RoleConst.USER],
-                [PermissionConst.SWITCH_LANGUAGE],
-                [],
-                'OR',
-              ),
-              'OR',
-            )
-          "
-        >
-          <el-dropdown class="w-full" trigger="hover" placement="left-start">
-            <div class="flex-between w-full" style="line-height: 22px; padding: 12px 11px">
-              <span> {{ $t('layout.language') }}</span>
-              <el-icon>
-                <ArrowRight />
-              </el-icon>
-            </div>
 
-            <template #dropdown>
-              <el-dropdown-menu class="w-180">
-                <el-dropdown-item
-                  v-for="(lang, index) in langList"
-                  :key="index"
-                  :value="lang.value"
-                  @click="changeLang(lang.value)"
-                  class="flex-between"
-                >
-                  <span :class="lang.value === user.userInfo?.language ? 'primary' : ''">{{
-                    lang.label
-                  }}</span>
-
-                  <el-icon
-                    :class="lang.value === user.userInfo?.language ? 'primary' : ''"
-                    v-if="lang.value === user.userInfo?.language"
-                  >
-                    <Check />
-                  </el-icon>
-                </el-dropdown-item>
-              </el-dropdown-menu>
-            </template>
-          </el-dropdown>
-        </el-dropdown-item>
         <el-dropdown-item
           @click="openAbout"
           v-if="
@@ -203,8 +157,11 @@ const openResetPassword = () => {
 }
 const m: any = {
   'system administrator': 'layout.about.inner_admin',
+  '系统管理员': 'layout.about.inner_admin',
   'Workspace manager': 'layout.about.inner_wsm',
+  '工作空间管理员': 'layout.about.inner_wsm',
   'Ordinary user': 'layout.about.inner_user',
+  '普通用户': 'layout.about.inner_user',
 }
 const role_list = computed(() => {
   if (!user.userInfo) {

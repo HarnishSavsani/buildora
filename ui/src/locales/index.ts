@@ -17,16 +17,6 @@ export const localeConfigKey = 'MaxKB-locale'
 const languages = usePreferredLanguages()
 
 export function getBrowserLang() {
-  const browserLang = navigator.language || languages.value[0] || 'en-US'
-
-  if (browserLang === 'zh-HK' || browserLang === 'zh-TW') {
-    return 'zh-Hant'
-  }
-
-  if (browserLang === 'zh-CN') {
-    return 'zh-CN'
-  }
-
   return 'en-US'
 }
 

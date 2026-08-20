@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-@project: MaxKB
-@Author：TigerTiger
+@project: Crafter.ai
+@Author：Neural Nexus
 @file： application.py
 @date：2025/5/26 17:03
 @desc:
@@ -1014,49 +1014,31 @@ class ApplicationSerializer(serializers.Serializer):
 
         def get_appstore_templates(self):
             self.is_valid(raise_exception=True)
-            # downloadzipdocument
             try:
-                appstore_url = CONFIG.get("APPSTORE_URL", "https://apps-assets.fit2cloud.com/stable/maxkb.json.zip")
-                res = requests.get(appstore_url, timeout=5)
-                res.raise_for_status()
-                # createTemporary document storagezip
-                with tempfile.NamedTemporaryFile(delete=False, suffix=".zip") as temp_zip:
-                    temp_zip.write(res.content)
-                    temp_zip_path = temp_zip.name
-
-                try:
-                    # Unzipzipdocument
-                    with zipfile.ZipFile(temp_zip_path, "r") as zip_ref:
-                        # getzipone piecesdocument (assuming there is only onepiecesjsondocument）
-                        json_filename = zip_ref.namelist()[0]
-                        json_content = zip_ref.read(json_filename)
-
-                    # WilljsonConvert toCharacterclassic
-                    tool_store = json.loads(json_content.decode("utf-8"))
-                    tag_dict = {tag["name"]: tag["key"] for tag in tool_store["additionalProperties"]["tags"]}
-                    filter_apps = []
-                    for tool in tool_store["apps"]:
-                        if self.data.get("name", "") != "":
-                            if self.data.get("name").lower() not in tool.get("name", "").lower():
-                                continue
-                        if not tool["downloadUrl"].endswith(".mk"):
+                json_path = os.path.join(PROJECT_DIR, 'apps', 'application', 'flow', 'maxkb_en.json')
+                with open(json_path, 'r', encoding='utf-8') as f:
+                    tool_store = json.load(f)
+                tag_dict = {tag["name"]: tag["key"] for tag in tool_store["additionalProperties"]["tags"]}
+                filter_apps = []
+                for tool in tool_store["apps"]:
+                    if self.data.get("name", "") != "":
+                        if self.data.get("name").lower() not in tool.get("name", "").lower():
                             continue
-                        versions = tool.get("versions", [])
-                        tool["label"] = tag_dict[tool.get("tags")[0]] if tool.get("tags") else ""
-                        tool["version"] = next(
-                            (
-                                version.get("name")
-                                for version in versions
-                                if version.get("downloadUrl") == tool["downloadUrl"]
-                            ),
-                        )
-                        filter_apps.append(tool)
+                    if not tool["downloadUrl"].endswith(".mk"):
+                        continue
+                    versions = tool.get("versions", [])
+                    tool["label"] = tag_dict[tool.get("tags")[0]] if tool.get("tags") else ""
+                    tool["version"] = next(
+                        (
+                            version.get("name")
+                            for version in versions
+                            if version.get("downloadUrl") == tool["downloadUrl"]
+                        ),
+                    )
+                    filter_apps.append(tool)
 
-                    tool_store["apps"] = filter_apps
-                    return tool_store
-                finally:
-                    # Clean up temporarydocument
-                    os.unlink(temp_zip_path)
+                tool_store["apps"] = filter_apps
+                return tool_store
             except Exception as e:
                 maxkb_logger.error(f"fetch appstore tools error: {e}")
                 return {"apps": [], "additionalProperties": {"tags": []}}

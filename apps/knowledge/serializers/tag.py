@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: maxkb
+    @project: Crafter.ai
     @Author：AI Assistant
     @file： tag.py
     @date：2025/10/13

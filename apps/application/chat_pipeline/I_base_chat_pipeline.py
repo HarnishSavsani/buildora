@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-    @project: maxkb
+    @project: Crafter.ai
     @Author：Tiger
     @file： I_base_chat_pipeline.py
     @date：2024/1/9 17:25

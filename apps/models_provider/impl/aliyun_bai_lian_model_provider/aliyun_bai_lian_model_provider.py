@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-@project: MaxKB
+@project: Crafter.ai
 @Author：Tiger
 @file： aliyun_bai_lian_model_provider.py
 @date：2024/9/9 17:43

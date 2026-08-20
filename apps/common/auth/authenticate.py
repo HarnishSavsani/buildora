@@ -1,7 +1,7 @@
 # coding=utf-8
 """
     @project: qabot
-    @Author：TigerTiger
+    @Author：Neural Nexus
     @file： authenticate.py
     @date：2023/9/4 11:16
     @desc:  Certification
